@@ -1,0 +1,274 @@
+[
+  {
+    "icon": "home",
+    "key": "overview",
+    "label": "Overview",
+    "url": "/"
+  },
+  
+  {
+    "icon":"user",
+    "key": "01",
+    "label": "Member",
+    "children": [
+      {
+        "key": "1",
+        "label": "Member Details",
+        "url": "/member"
+      }
+     
+    ]
+  },
+  
+  {
+    "icon": "tool" ,
+    "key": "05",
+    "label": "Service Provider",
+    "children": [
+      {
+        "key": "1L",
+        "label": "Service Provider Details",
+        "url": "/serviceprovider"
+      },
+
+      {
+        "key": "5l",
+        "label": "Service Provider Shift",
+        "url": "/spshift"
+      }
+
+    ]
+  },
+
+  {
+    "icon": "alert" ,
+    "key": "16",
+    "label": "Request",
+    "children": [
+      {
+        "key": "5A",
+        "label": "All Requests",
+        "url": "/allrequests"
+      },
+
+      {
+        "key": "5B",
+        "label": "Services Requested",
+        "url": "/servicesrequested"
+      }
+
+     
+    ]
+  },
+
+  {
+    "icon": "pound" ,
+    "key": "15",
+    "label": "Commission",
+    "children": [
+
+      {
+        "key": "4M",
+        "label": "Sp Cash at Hand",
+        "url": "/cashathand"
+      }
+      
+    ]
+  },
+  
+  {
+    "icon": "control" ,
+    "key": "03",
+    "label": "Maintainance",
+    "children": [
+      {
+        "key": "1A",
+        "label": "Service categories",
+        "url": "/settings/servicepoint"
+      },
+
+      {
+        "key": "1C",
+        "label": "Rescue Vehicle Types",
+        "url": "/settings/vehicledetails"
+      },
+
+      {
+        "key": "1B",
+        "label": "Member Vehicle Types",
+        "url": "/vehicledetails"
+      },
+
+      {
+        "key": "1J",
+        "label": "Member Vehicle Category",
+        "url": "/vehiclecategory"
+      },
+
+      {
+        "key": "2J",
+        "label": "Map Rescue to Member Vehicle ",
+        "url": "/map"
+      },
+
+      {
+        "key": "1z",
+        "label": "Member Type",
+        "url": "/membertype"
+      },
+
+      {
+        "key": "1E",
+        "label": "Distance Limit",
+        "url": "/distance"
+      },
+
+      {
+        "key": "1D",
+        "label": "Service Rates ",
+        "url": "/settings/ratesdetails"
+      },
+
+      {
+        "key": "2F",
+        "label": "Main Bank ",
+        "url": "/bank"
+      },
+      
+      {
+        "key": "1F",
+        "label": "Bank Branch",
+        "url": "/bank/branch"
+      },
+
+      {
+        "key": "2K",
+        "label": "Payer",
+        "url": "/insurance"
+      },
+
+      {
+        "key": "4D",
+        "label": "Commission Rates",
+        "url": "/commission"
+      }
+      
+      
+    ]
+  },
+
+  {
+    "icon": "calculator" ,
+    "key": "07",
+    "label": "Claims Management",
+    "children": [
+      {
+        "key": "3A",
+        "label": "Members Policy Management",
+        "url": "/policy"
+      },
+
+      {
+        "key": "3B",
+        "label": "Invoicing",
+        "url": "/invoice"
+      },
+
+      {
+        "key": "3C",
+        "label": "Invoice Preparation",
+        "url": "/newinvoice"
+      },
+
+      {
+        "key": "3D",
+        "label": "Dispatch Invoices",
+        "url": "/dispatch"
+      },
+      {
+        "key": "3E",
+        "label": "Reciepts",
+        "url": "/reciepts"
+      },
+
+      {
+        "key": "3F",
+        "label": "Allocation",
+        "url": "/allocation"
+      }
+      
+    ]
+  },
+  {
+    "icon": "lock" ,
+    "key": "04",
+    "label": "Security",
+    "children": [
+
+
+      {
+        "key": "1H",
+        "label": "Manage User Roles",
+        "url": "/usergroup"
+      },
+
+      {
+        "key": "4G",
+        "label": "Role Permissions",
+        "url": "/rolepermission"
+      },
+
+      {
+        "key": "1G",
+        "label": "Manage system users",
+        "url": "/systemuser"
+      }
+   
+      
+    ]
+  },
+  {
+    "icon": "read" ,
+    "key": "02",
+    "label": "Reports",
+    "children": [
+      {
+        "key": "4",
+        "label": "Daily Monthly or weekly accounts",
+        "url": "/dmw"
+      },
+      {
+        "key": "5",
+        "label": "Requests by members",
+        "url": "/rbm"
+      },
+      {
+        "key": "6",
+        "label": "Canceled requests by members",
+        "url": "/cr"
+      },
+      {
+        "key": "7",
+        "label": "Requests by geographical area",
+        "url": "/rba"
+      },
+      {
+        "key": "8",
+        "label": "Reviews by service providers",
+        "url": "/rbs"
+      },
+      {
+        "key": "9",
+        "label": "Financial reports per duration",
+        "url": "/fr"
+      }
+     
+    ]
+  },
+  {
+    "icon": "setting",
+    "key": "setting",
+    "label": "Settings",
+    "url": "/settings"
+  }
+]

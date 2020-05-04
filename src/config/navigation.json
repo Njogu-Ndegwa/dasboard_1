@@ -1,0 +1,191 @@
+{
+  "items": [
+    {
+      "title": "Dashboard",
+      "icon": "fa fa-lg fa-fw fa-home",
+      "route": "/home"
+    },
+    {
+      "title": "Patient",
+      "icon": "fa fa-lg fa-fw fa-users txt-color-purple",
+      "items": [
+        {
+          "icon": "fa fa-angle-double-right",
+          "route": "/createPatient",
+          "title": "Registration"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "route": "/emergencyRegistration",
+          "title": "Emergency Registration"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "route": "/listPatients",
+          "title": "Patient Listing"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "route": "/patientQueue",
+          "title": "PatientQueue"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "route": "/ip-admission",
+          "title": "In-Patient Admission"
+        }
+      ]
+    },
+    {
+      "title": "Appointments",
+      "icon": "fa fa-lg fa-fw fa-calendar txt-color-blue",
+      "items": [
+        {
+          "title": "Create Appointment",
+          "route": "/createAppointment"
+        },
+        {
+          "title": "Create Appointment Type",
+          "route": "/createAppointmentType"
+        },
+        {
+          "title": "View All",
+          "route": "/viewAppointment"
+        },
+        {
+          "title": "Appointment Types",
+          "route": "/viewAppointmentTypes"
+        }
+      ]
+    },
+    {
+      "title": "Triage",
+      "icon": "fa fa-lg fa-fw fa-stethoscope txt-color-yellow",
+      "route": "/triage"
+    },
+    {
+      "title": "Organization",
+      "icon": "fa fa-lg fa-fw fa-hospital-o txt-color-red",
+      "items": [
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Faciltiy",
+          "route": "/facility"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Department",
+          "route": "/facilityDepartments"
+        },
+        {
+          "title": "Employees",
+          "icon": "fa fa-lg fa-fw fa-sliders",
+          "items": [
+            {
+              "icon": "fa fa-angle-double-right",
+              "title": "Employees Listing",
+              "route": "/smartadmin/app-layouts"
+            }
+          ]
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Room Type",
+          "route": "/room-type"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Room",
+          "route": "/facilityRooms"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Ward",
+          "route": "/facilityWards"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Bed",
+          "route": "/facilityBed"
+        },
+        {
+          "icon": "fa fa-genderless",
+          "title": "Banks",
+          "route": "/banks"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Identification type",
+          "route": "/patientIdentificationType"
+        }
+      ]
+    },
+    {
+      "title": "Banking",
+      "icon": "fa fa-lg fa-fw fa-university",
+      "items": [
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Accounts",
+          "route": "/banking/account"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Transfers",
+          "route": "/banking/transfer"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Transactions",
+          "route": "/banking/transactions"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Reconciliations",
+          "route": "/banking/reconciliations"
+        }
+      ]
+    },
+    {
+      "title": "Accounting",
+      "icon": "fa fa-lg fa-fw fa-money",
+      "items": [
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Chart of Account",
+          "route": "/accounting/chartofaccount"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Fiscal Year",
+          "route": "/accounting/fiscalyear"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Journal Entry",
+          "route": "/accounting/journal"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "General Ledger",
+          "route": "/accounting/generalledger"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Balance Sheet",
+          "route": "/accounting/balancesheet"
+        },
+        {
+          "icon": "fa fa-angle-double-right",
+          "title": "Trial Balance",
+          "route": "/accounting/trialbalance"
+        },
+        {
+          "icon": "fa fa-cog",
+          "title": "Settings",
+          "route": "/accounting/settings"
+        }
+      ]
+    }
+  ]
+}

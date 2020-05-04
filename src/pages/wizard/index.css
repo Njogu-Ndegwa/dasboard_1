@@ -1,0 +1,24 @@
+.steps-content {
+    margin-top: 16px;
+    border: 1px dashed #e9e9e9;
+    border-radius: 6px;
+    background-color: #fafafa;
+    min-height: 200px;
+    text-align: center;
+    padding-top: 80px;
+}
+
+.steps-action {
+    margin-top: 24px;
+}
+
+.wizard-fields {
+    display: none;
+    opacity: 0;
+    animation: fade-out 1s 1;
+}
+.wizard-fields.fade-in {
+    display: block;
+    opacity: 1;
+    animation: fade-in 0.5s 1;
+}
