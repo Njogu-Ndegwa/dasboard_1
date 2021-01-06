@@ -6,7 +6,7 @@
     "@ant-design/icons": "^4.0.5",
     "@lingui/react": "^2.8.3",
     "antd": "^3.23.3",
-    "axios": "^0.18.1",
+    "axios": "^0.21.1",
     "base-64": "^0.1.0",
     "classnames": "^2.2.6",
     "jquery": "^3.4.1",
